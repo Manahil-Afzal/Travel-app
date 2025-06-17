@@ -1,0 +1,39 @@
+.trip {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.tripcard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.t-card {
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.t-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.tripcard img {
+  width: 100%;
+  height: 250px; /* Default for all images */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Specifically target the 2nd image */
+.tripcard img:nth-child(2) {
+  height: 150px; /* Decreased height only for the second image */
+}

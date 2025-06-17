@@ -1,0 +1,95 @@
+.form-container {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;  /* 🔼 Increased from 500px */
+  width: 100%;        /* Keeps it responsive */
+  margin: 1rem auto;
+}
+
+
+.contact-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 0.4rem; /* Slightly reduced */
+}
+
+.contact-subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 1rem; /* Reduced */
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem; /* Slightly smaller */
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-page {
+  background-color: #fff;
+  padding: 1rem; /* Reduced overall padding */
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem; /* Slightly reduced */
+}
+
+.image-gallery img {
+  width: 220px; /* Smaller images */
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-image-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 1.8rem; /* Slightly smaller */
+  color: #333;
+  margin-bottom: 1.2rem;
+}

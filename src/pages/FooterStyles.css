@@ -1,0 +1,64 @@
+/* src/components/FooterStyles.css */
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-header {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footer-header h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: white;
+}
+
+.footer-button {
+  background-color: #ff5f5f;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.column {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+
+.column h2 {
+  color: gold;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.column p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
